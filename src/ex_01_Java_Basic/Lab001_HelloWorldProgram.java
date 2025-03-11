@@ -5,8 +5,5 @@ public class Lab001_HelloWorldProgram {
         System.out.println("Hello World");
         System.out.println("Update the Program");
     }
-    public static void test()
-    {
 
-    }
 }
