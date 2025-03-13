@@ -6,8 +6,8 @@ public class Lab003_Assignment {
         int d=a*a+b*b-Math.abs(c);
         double result =Math.cbrt(d);
         System.out.println(result);
-        /*double x=10,y=10,z=10;
+        double x=10,y=10,z=10;
         System.out.println(Math.cbrt(Math.pow(x,2)+Math.pow(y,2)-Math.abs(z)));
-         */
+
     }
 }
