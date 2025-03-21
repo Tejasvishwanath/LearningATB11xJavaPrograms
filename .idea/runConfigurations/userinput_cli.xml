@@ -1,0 +1,16 @@
+<component name="ProjectRunConfigurationManager">
+  <configuration default="false" name="userinput_cli" type="Application" factoryName="Application" nameIsGenerated="true">
+    <option name="MAIN_CLASS_NAME" value="ex_Tasks.userinput_cli" />
+    <module name="LearningATB11xJavaPrograms" />
+    <option name="PROGRAM_PARAMETERS" value="Test 28 150000" />
+    <extension name="coverage">
+      <pattern>
+        <option name="PATTERN" value="ex_Tasks.*" />
+        <option name="ENABLED" value="true" />
+      </pattern>
+    </extension>
+    <method v="2">
+      <option name="Make" enabled="true" />
+    </method>
+  </configuration>
+</component>
