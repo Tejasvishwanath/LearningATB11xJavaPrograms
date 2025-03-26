@@ -26,7 +26,7 @@ public class vowels_consonats {
             }
 
         }
-        System.out.println("THe number of vowels:"+vowel);
-        System.out.println("THe number of consonents:"+consonant);
+        System.out.println("The number of vowels:"+vowel);
+        System.out.println("The number of consonants:"+consonant);
     }
 }
