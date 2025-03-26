@@ -1,5 +1,7 @@
 package ex_Tasks;
 
+import org.w3c.dom.ls.LSOutput;
+
 import java.util.Scanner;
 
 public class vowels_consonats {
@@ -26,7 +28,8 @@ public class vowels_consonats {
             }
 
         }
-        System.out.println("THe number of vowels:"+vowel);
-        System.out.println("THe number of consonents:"+consonant);
+        System.out.println("The number of vowels:"+vowel);
+        System.out.println("The number of consonants:"+consonant);
+        }
     }
-}
+

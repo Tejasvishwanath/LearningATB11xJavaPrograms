@@ -12,10 +12,19 @@ public class Task_Triangle {
         System.out.println("Enter the length of the Triangle of one side l3");
         int l3= scan.nextInt();
 
-        if (l1==l2 && l2==l3)
+        if (l1+l2<=l3 || l2+l3<=l1 || l3+l1<=l2)
+        {
+            System.out.println("It is not a trianlgle");
+        }
+        else if (l1<=0 || l2<=0 || l3<=0)
+        {
+            System.out.println("It is not a triangle");
+        }
+        else if (l1==l2 && l2==l3)
         {
             System.out.println("Hence all the sides length are equal it is a Equilateral Triangle");
-        } else if (l1==l2 || l1==l3 || l3==l2)
+        }
+        else if (l1==l2 || l1==l3 || l3==l2)
         {
 
             System.out.println("Two  sides length are equal it is a isosceles Triangle");
