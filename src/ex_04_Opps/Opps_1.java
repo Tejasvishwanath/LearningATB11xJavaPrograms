@@ -48,8 +48,4 @@ class Person
     {
         System.out.println("Hello " + name);
     }
-    Person()
-    {
-
-    }
 }
