@@ -5,8 +5,8 @@ public class Interface2 {
         Computer1 v = new Laptop1();
         Computer1 b = new Desktop1();
         Developer1 n = new Developer1();
-        n.dev(d);
-        n.dev(f);
+        n.dev(v);
+        n.dev(b);
     }
 }
 
@@ -32,7 +32,7 @@ class Desktop1 implements Computer1
 
 class Developer1
 {
-    public void dev(Computer lap)
+    public void dev(Computer1 lap)
     {
         lap.code();
     }
